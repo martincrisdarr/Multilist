@@ -4,11 +4,19 @@
 
 /* FONTS IMPORTS */
 @import url('https://fonts.googleapis.com/css2?family=Trispace:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&display=swap');
 
 /* FONTS */
 .trispace{
   font-family: 'Trispace', sans-serif;
 }
+.merriweather{
+  font-family: 'Merriweather', serif;
+}
 ::-webkit-scrollbar {
   display: none;
+}
+.eduBeginner{
+  font-family: 'Edu SA Beginner', cursive;
 }

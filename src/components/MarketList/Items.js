@@ -3,7 +3,7 @@ import { BsTrash } from "react-icons/bs";
 function Items({ list, handleRemove, handleRemoveAll }) {
   return (
     <>
-      <div className="flex flex-col  gap-4 p-6 h-[80%] w-full ">
+      <div className="flex flex-col gap-4 p-6 h-[80%] w-full ">
         {list.map((p) => {
           return (
             <div
@@ -13,6 +13,7 @@ function Items({ list, handleRemove, handleRemoveAll }) {
             >
               <p className="flex w-full flex-wrap">{p.name} </p>
               <BsTrash
+                size='1.5rem'
                 className="cursor-pointer"
                 onClick={() => handleRemove(p.id)}
               />
